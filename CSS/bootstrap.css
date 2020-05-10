@@ -4881,8 +4881,10 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #0a0102;
   border-radius: 0.3rem;
+  background-image: url(..img/programming.png);
+  background-repeat: repeat;
 }
 
 @media (min-width: 576px) {
