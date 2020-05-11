@@ -414,6 +414,8 @@ h6, .h6 {
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 1.2;
+  color: aliceblue;
+  text-shadow:#000 2px 2px;
 }
 
 .display-4 {
@@ -4881,11 +4883,32 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #0a0102;
+  background-color: beige;
   border-radius: 0.3rem;
-  background-image: url(..img/programming.png);
-  background-repeat: repeat;
+  background-image: url(../img/programming.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+  .buttonleroy {
+    border-radius: .25rem;
+    display: inline-block;
+    font-size: 1rem;
+    padding: .68rem .81rem;
+    position: relative;
+    z-index: 10;
+    background-color: #72bf44;
+    border: 0;
+    color: #fff;
+    transition: transform .3s ease-in-out;
 }
+
+
+ .subtitle { 
+   color: aliceblue;
+   text-shadow: black;
+  }
 
 @media (min-width: 576px) {
   .jumbotron {
